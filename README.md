@@ -1,20 +1,75 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Championship Management App
 
-# Run and deploy your AI Studio app
+Este proyecto es un prototipo funcional de una aplicación para la gestión de campeonatos deportivos, desarrollado con **React**, **TypeScript** y **Tailwind CSS**.
 
-This contains everything you need to run your app locally.
+## Requisitos Previos
 
-View your app in AI Studio: https://ai.studio/apps/drive/1kgs_kvoiwA6Fv0Of0ZAxwYphGvV1II9n
+Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
-## Run Locally
+1.  **Node.js** (versión 14 o superior recomedada).
+    *   Para verificar si lo tienes instalado, ejecuta: `node -v`
+    *   Si no lo tienes, descárgalo e instálalo desde [nodejs.org](https://nodejs.org/).
+2.  **npm** (viene instalado con Node.js) o **yarn**.
+    *   Para verificar npm: `npm -v`
 
-**Prerequisites:**  Node.js
+---
 
+## Instrucciones de Instalación y Ejecución
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Sigue estos pasos para levantar la aplicación desde cero una vez hayas clonado el repositorio.
+
+### 1. Clonar el Repositorio
+
+Abre tu terminal (o consola de comandos) y ejecuta:
+
+```bash
+git clone <URL_DEL_REPOSITORIO>
+cd <NOMBRE_DE_LA_CARPETA_DEL_PROYECTO>
+```
+2. Instalación en Windows
+Abrir la terminal: Puedes usar PowerShell, Command Prompt (cmd) o la terminal integrada de tu editor de código (como VS Code).
+Navegar a la carpeta del proyecto (si no lo has hecho ya):
+code
+Powershell
+cd ruta\a\tu\proyecto
+Instalar dependencias:
+Ejecuta el siguiente comando para descargar todas las librerías necesarias listadas en el package.json:
+code
+Powershell
+npm install
+# O si usas yarn:
+# yarn install
+Iniciar la aplicación:
+Una vez finalizada la instalación, levanta el servidor de desarrollo:
+code
+Powershell
+npm start
+# O si usas yarn:
+# yarn start
+Ver en el navegador:
+Automáticamente debería abrirse una pestaña en tu navegador predeterminado en http://localhost:3000. Si no se abre, escribe esa dirección manualmente.
+3. Instalación en Linux / macOS
+Abrir la terminal.
+Navegar a la carpeta del proyecto:
+```
+code
+Bash
+cd ruta/a/tu/proyecto
+Instalar dependencias:
+code
+Bash
+npm install
+# O si prefieres yarn:
+# yarn install
+```
+Iniciar la aplicación:
+```
+code
+Bash
+npm start
+# O con yarn:
+# yarn start
+
+```
+Ver en el navegador:
+La aplicación estará disponible en http://localhost:3000.
